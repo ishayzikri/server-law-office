@@ -1,0 +1,276 @@
+body{
+    margin:0;
+    background-color: #25263a;
+    min-height: 100vh;
+
+}
+
+#up{
+    margin: 0%;
+    background-color: #25263a;
+    padding:0;
+
+}
+
+#logo{
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#small{
+    display: none;
+}
+
+#main{
+    color: azure;
+    background-color: #25263a;
+    text-align: center;
+    padding-right: 0%;
+    direction: rtl;
+
+
+}
+
+#phon-version{
+    display: flex;
+    margin: 0;
+    padding-left: 0%;
+    text-align: center; 
+    max-width: 100%;
+
+}
+
+#bookgram{
+    display: flex;
+    text-align: center;
+    padding-right: 0%;
+    max-width: 100%;
+
+
+}
+
+i{
+    color:goldenrod;
+    padding: 5%;
+    width: 90px;
+    height: 70px;
+    font-size: 3em; 
+}
+
+#phon{
+    border-radius: 25px;
+    width: 33.3%;
+    height: 90px;
+    margin: 0%;
+
+
+}
+
+#mail{
+    border-radius: 25px;
+    width: 33.3%;
+    height: 90px;
+
+
+}
+
+#whatsapp{
+    border-radius: 25px;
+    width: 33.3%;
+    height: 80px;
+    text-align: center;
+
+}
+
+#whatcon {
+    animation: jump-shaking 0.83s infinite;
+}
+
+  
+@keyframes jump-shaking {
+    0% { transform: translateX(0) }
+    25% { transform: translateY(-9px) }
+    35% { transform: translateY(-9px) rotate(17deg) }
+    55% { transform: translateY(-9px) rotate(-17deg) }
+    65% { transform: translateY(-9px) rotate(17deg) }
+    75% { transform: translateY(-9px) rotate(-17deg) }
+    100% { transform: translateY(0) rotate(0) }
+}
+  
+#facebook{
+    border-radius: 25px;
+    width: 50%;
+    height: 80px;
+    text-align: center;
+}
+
+#instagram{
+    border-radius: 25px;
+    width: 50%;
+    height: 80px;
+    text-align: center;
+}
+
+#downimage{
+max-width: 100%;
+padding:20% 0%;
+}
+
+
+#footer{
+    background-color: gray;
+    color:azure;
+    padding:1%;
+    text-align: center;
+    max-width: 100%;
+}
+
+@media (min-width: 600px){
+
+    #logo{
+        text-align: center;
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    #main{
+        display: flex;
+        text-align: center;
+        padding:5px;
+        padding-right: 18%;
+    }
+
+    #phon-version{
+        display: flex;
+        margin: 0;
+        padding: 0;
+
+    }
+    #bookgram{
+        display: flex; 
+        text-align: center;
+        padding: 0%;
+
+    }
+   
+}
+
+
+
+@media (min-width: 699px) {
+     /*responsive*/
+    #logo{
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+
+    #main{
+        display: flex;
+        text-align: center;
+        padding:5px;
+        padding-right: 8%;
+    }
+   
+    #phon-version{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        width: 50%;
+    }
+
+    #bookgram{
+        display: flex;
+        text-align: center;
+        width: 50%;
+    
+    }
+   
+    #phon{
+        border-radius: 25px;
+        width: 33.3%;
+        height: 90px;
+        text-align: center;
+        margin: 0%;
+    
+    
+    }
+
+    #mail{
+        border-radius: 25px;
+        width: 33.3%;
+        height: 90px;
+        text-align: center;
+    
+    
+    }
+
+    #whatsapp{
+        border-radius: 25px;
+        width: 33.3%;
+        height: 90px;
+        text-align: center;
+    
+    }
+    
+    #facebook{
+        border-radius: 25px;
+        width: 50%;
+        height: 90px;
+        text-align: center;
+    }
+
+    #instagram{
+        border-radius: 25px;
+        width: 50%;
+        height: 90px;
+        text-align: center;
+    
+    
+    }
+    /*icons*/
+    i{
+      
+        color:goldenrod;
+        padding: 5%;
+        width: 70px;
+        height: 70px;
+        font-size: 3em; 
+        position: relative;
+        margin: 0;
+    
+    }
+
+    #downimage{
+        padding-top:20% ;
+        padding-bottom: 25%;
+    }
+    
+    
+    #footer{
+        background-color: gray;
+        color:azure;
+        padding:1%;
+        text-align: center;
+        max-width: 100%;
+    
+    }
+}
+
+@media (min-width: 899px) {
+    #downimage{
+        padding-top:0% ;
+        padding-bottom: 0%;
+    }
+    
+    
+}
+
+
+    /* background-image: url("images/shoham.jpeg"); 
+    <style>  elementor - v3.9.0 - 06-12-2022 
+    .elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}
+    </style>
+     /*
